@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 apt update
-apt install -y neovim git zsh
+apt install -y tmux neovim git zsh
 clear
 
 if [ -d "$HOME/.termux" ]; then
@@ -34,8 +34,6 @@ chsh -s zsh
 
 termux-setup-storage
 
-zsh && source $HOME/.zshrc
-
-echo Done!
+echo Please, restart Termux to apply the effects.
 
 exit
