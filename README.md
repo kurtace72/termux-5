@@ -7,6 +7,7 @@ Features:
  - oh-my-zsh
  - zsh syntax highlighting
  - tmux
+ - Neovim
 
 # Requirements
 - curl

@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 apt update
-apt install -y git zsh
+apt install -y neovim git zsh
 clear
 
 if [ -d "$HOME/.termux" ]; then
@@ -33,6 +33,8 @@ curl -fsLo $HOME/.config/nvim/init.vim --create-dirs https://cdn.rawgit.com/onlu
 chsh -s zsh
 
 termux-setup-storage
+
+zsh && source $HOME/.zshrc
 
 echo Done!
 
