@@ -24,6 +24,12 @@ curl -fsLo $HOME/.zshrc https://cdn.rawgit.com/onlurking/termux/master/.termux/.
 
 curl -fsLo $HOME/.profile https://cdn.rawgit.com/onlurking/termux/master/.termux/.profile
 
+curl -fsLo $HOME/.config/nvim/autoload/plug.vim --create-dirs https://cdn.rawgit.com/onlurking/termux/master/.termux/nvim/autoload/plug.vim
+
+curl -fsLo $HOME/.config/nvim/colors/Tomorrow-Night-Eighties.vim --create-dirs https://cdn.rawgit.com/onlurking/termux/master/.termux/nvim/colors/Tomorrow-Night-Eighties.vim
+
+curl -fsLo $HOME/.config/nvim/init.vim --create-dirs https://cdn.rawgit.com/onlurking/termux/master/.termux/nvim/init.vim
+
 chsh -s zsh
 
 termux-setup-storage
