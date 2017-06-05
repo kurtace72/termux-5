@@ -38,4 +38,4 @@ echo Please, restart Termux to apply the effects.
 
 pkill termux
 
-exit 0
+exit
