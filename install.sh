@@ -36,4 +36,6 @@ termux-setup-storage
 
 echo Please, restart Termux to apply the effects.
 
-exit
+pkill termux
+
+exit 0
